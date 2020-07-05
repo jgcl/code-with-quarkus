@@ -17,7 +17,7 @@ services:
     container_name: localstack
     image: localstack/localstack:0.11.2
     volumes:
-      - ./docker/create_sqs_queues.sh:/docker-entrypoint-initaws.d/create_sqs_queues.sh
+      - ./src/main/docker/create_sqs_queues.sh:/docker-entrypoint-initaws.d/create_sqs_queues.sh
     ports:
       - "4566:4566"
     environment:
