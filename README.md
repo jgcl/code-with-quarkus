@@ -8,7 +8,7 @@ If you want to learn more about Quarkus, please visit its website: https://quark
 
 Using JAX-RS:
 
-```shell script
+```
 $ ab -n 1000 -c 25 http://localhost:8080/jaxrs
 This is ApacheBench, Version 2.3 <$Revision: 1843412 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
@@ -65,7 +65,7 @@ Percentage of the requests served within a certain time (ms)
  100%     12 (longest request)
 ```
 Using Spring:
-```shell script
+```
 $ ab -n 1000 -c 25 http://localhost:8080/spring
 This is ApacheBench, Version 2.3 <$Revision: 1843412 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
@@ -124,7 +124,7 @@ Percentage of the requests served within a certain time (ms)
 
 Using Vert.x:
 
-```shell script
+```
 $ ab -n 1000 -c 25 http://localhost:8080/vertx
 This is ApacheBench, Version 2.3 <$Revision: 1843412 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
